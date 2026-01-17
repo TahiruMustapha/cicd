@@ -3,8 +3,9 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
-  basePath: "/cicd",
-  assetPrefix:"/cicd/",
+  distDir:"dist",
+  // basePath: "/cicd",
+  // assetPrefix:"/cicd/",
   images: {
     unoptimized:true
   }
