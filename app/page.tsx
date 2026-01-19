@@ -31,7 +31,7 @@ export default function Home() {
         {/* Hero Image */}
         <div className="mt-12 sm:mt-0 sm:ml-12 flex-shrink-0">
           <Image
-            src="/hero-wood.jpg"
+            src="/hero.jpg"
             alt="Luxury wooden furniture"
             width={500}
             height={400}
@@ -49,7 +49,7 @@ export default function Home() {
           {["Wooden Chair", "Dining Table", "Coffee Table"].map((item) => (
             <div key={item} className="rounded-xl overflow-hidden shadow-lg bg-zinc-50 dark:bg-zinc-800">
               <Image
-                src={`/products/${item.toLowerCase().replace(" ", "-")}.jpg`}
+                src={`/${item}.jpg`}
                 alt={item}
                 width={400}
                 height={250}
